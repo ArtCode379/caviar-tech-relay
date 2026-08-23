@@ -1,0 +1,17 @@
+{
+  "phase": "scaffold_cloned",
+  "updated_at": "2026-08-23T20:01:37.366218+00:00",
+  "slug": "caviar-tech-relay",
+  "type": "shop",
+  "package": "caviarphoneukandni.computing.caviartechrelay",
+  "prefix": "YBYAF",
+  "app_name": "Caviar Tech Relay",
+  "task_gid": "1217445085646232",
+  "task_name": "GB GW4 C1516",
+  "asana_url": "https://app.asana.com/1/1208304498069546/project/1213586227413017/task/1217445085646232",
+  "domain": "https://caviarphone.surf",
+  "company": "CAVIAR PHONE (UK AND NI) LIMITED",
+  "repo_url": "https://github.com/ArtCode379/caviar-tech-relay",
+  "quality_status": "not_run",
+  "build_status": "not_run"
+}
