@@ -1,6 +1,6 @@
 {
-  "phase": "scaffold_cloned",
-  "updated_at": "2026-08-23T20:01:37.366218+00:00",
+  "phase": "github_push_started",
+  "updated_at": "2026-08-23T20:21:16.225548+00:00",
   "slug": "caviar-tech-relay",
   "type": "shop",
   "package": "caviarphoneukandni.computing.caviartechrelay",
@@ -12,6 +12,15 @@
   "domain": "https://caviarphone.surf",
   "company": "CAVIAR PHONE (UK AND NI) LIMITED",
   "repo_url": "https://github.com/ArtCode379/caviar-tech-relay",
-  "quality_status": "not_run",
-  "build_status": "not_run"
+  "quality_status": "passed",
+  "build_status": "passed",
+  "icon_primary": "#00796B",
+  "icon_status": "imagegen",
+  "icon_error": "generate-icon.sh exited 1",
+  "quality_attempt": 2,
+  "quality_errors": 0,
+  "quality_result_file": "/tmp/caviar-tech-relay/quality-result.txt",
+  "build_exit_code": 0,
+  "build_result_file": "/tmp/caviar-tech-relay/build-result.txt",
+  "build_attempt": 1
 }

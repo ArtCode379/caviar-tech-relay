@@ -1,78 +1,68 @@
 <resources>
     <string name="ybyaf_app_name">Caviar Tech Relay</string>
-
-    <!-- shared -->
     <string name="ybyaf_price">£%1$.2f</string>
-
-    <!-- top bar titles -->
-    <string name="ybyaf_top_bar_home_title">Home/App Title</string>
+    <string name="ybyaf_top_bar_home_title">Caviar Tech Relay</string>
     <string name="ybyaf_top_bar_cart_title">Cart</string>
-    <string name="ybyaf_top_bar_checkout_title">Checkout</string>
-    <string name="ybyaf_top_bar_orders_title">Orders</string>
+    <string name="ybyaf_top_bar_checkout_title">Reserve order</string>
+    <string name="ybyaf_top_bar_orders_title">Purchase history</string>
     <string name="ybyaf_top_bar_settings_title">Settings</string>
-    <string name="ybyaf_top_bar_product_details_title">Details</string>
-
-    <!-- bottom bar navigation item titles -->
-    <string name="ybyaf_bottom_bar_nav_item_home_title">Home</string>
+    <string name="ybyaf_top_bar_product_details_title">Product details</string>
+    <string name="ybyaf_bottom_bar_nav_item_home_title">Shop</string>
     <string name="ybyaf_bottom_bar_nav_item_cart_title">Cart</string>
     <string name="ybyaf_bottom_bar_nav_item_orders_title">Orders</string>
     <string name="ybyaf_bottom_bar_nav_item_settings_title">Settings</string>
-
-    <!-- onboarding screen -->
-    <string name="ybyaf_page_1_title">Strategic Planning</string>
-    <string name="ybyaf_page_2_title">Operational Excellence</string>
-    <string name="ybyaf_page_3_title">Change Management</string>
-    <string name="ybyaf_page_1_description">Comprehensive strategic analysis and planning that aligns your business objectives with market opportunities and organizational capabilities.</string>
-    <string name="ybyaf_page_2_description">Process optimization and operational improvement strategies that enhance efficiency, reduce costs, and drive sustainable performance.</string>
-    <string name="ybyaf_page_3_description">Expert guidance through organizational transformation</string>
+    <string name="ybyaf_page_1_title">Technology that fits</string>
+    <string name="ybyaf_page_2_title">Reserve with confidence</string>
+    <string name="ybyaf_page_3_title">Software made simple</string>
+    <string name="ybyaf_page_1_description">Compare dependable computers, components and accessories selected for work, play and creativity.</string>
+    <string name="ybyaf_page_2_description">Build your basket and reserve every item for collection from our store within 24 hours.</string>
+    <string name="ybyaf_page_3_description">Choose genuine digital licences alongside expert-ready hardware in one clear catalogue.</string>
     <string name="ybyaf_next_button_title">Next</string>
-    <string name="ybyaf_start_button_title">Start</string>
+    <string name="ybyaf_start_button_title">Start shopping</string>
     <string name="ybyaf_skip_button_title">Skip</string>
-
-    <!-- home/products screen   -->
+    <string name="ybyaf_swipe_to_continue">Swipe to continue</string>
     <string name="ybyaf_products_state_empty_primary_text">No products available</string>
-
-    <!-- product details screen   -->
-    <string name="ybyaf_product_details_state_empty_primary_text">No information available for this product</string>
+    <string name="ybyaf_shop_categories">Shop by category</string>
+    <string name="ybyaf_category_all">All</string>
+    <string name="ybyaf_category_computers">Laptops &amp; PCs</string>
+    <string name="ybyaf_category_components">Components</string>
+    <string name="ybyaf_category_peripherals">Peripherals</string>
+    <string name="ybyaf_category_software">Software</string>
+    <string name="ybyaf_product_details_state_empty_primary_text">Product details are unavailable</string>
     <string name="ybyaf_product_image_description">Product image</string>
-    <string name="ybyaf_button_add_to_cart_label">Add to Cart</string>
-
-    <!-- cart screen -->
-    <string name="ybyaf_cart_state_empty_primary_text">Nothing in your cart yet</string>
-    <string name="ybyaf_button_place_order_label">Place Order • £%1$.2f</string>
+    <string name="ybyaf_button_add_to_cart_label">Add to cart</string>
+    <string name="ybyaf_cart_state_empty_primary_text">Your cart is empty — browse the shop to get started</string>
+    <string name="ybyaf_button_place_order_label">Place order • £%1$.2f</string>
     <string name="ybyaf_increase_quantity_icon_description">Increase quantity</string>
     <string name="ybyaf_decrease_quantity_icon_description">Decrease quantity</string>
-    <string name="ybyaf_delete_item_icon_description">Delete item</string>
-
-    <!-- orders screen -->
-    <string name="ybyaf_orders_state_empty_primary_text">You have no orders yet</string>
+    <string name="ybyaf_delete_item_icon_description">Remove item</string>
+    <string name="ybyaf_total">Total</string>
+    <string name="ybyaf_proceed_checkout">Proceed to checkout</string>
+    <string name="ybyaf_orders_state_empty_primary_text">No orders yet</string>
     <string name="ybyaf_order_number">Order #%1$s</string>
     <string name="ybyaf_order_customer">Customer: %1$s %2$s</string>
-
-    <!-- checkout screen -->
-    <string name="ybyaf_checkout_text_field_first_name">First Name</string>
-    <string name="ybyaf_checkout_text_field_last_name">Last Name</string>
-    <string name="ybyaf_checkout_text_field_email">Email</string>
-    <string name="ybyaf_button_confirm_order_label">Confirm Order</string>
-
-    <!-- checkout dialog -->
-    <string name="ybyaf_checkout_dialog_title">Thank You for Your Order!</string>
-    <string name="ybyaf_checkout_success_message">Your order has been successfully placed. Please hold on; our team will contact you shortly.</string>
-    <string name="ybyaf_checkout_dialog_confirm">Done</string>
-
-    <!-- settings screen -->
+    <string name="ybyaf_collect_24_hours">Reserved for collection for 24 hours</string>
+    <string name="ybyaf_checkout_text_field_first_name">First name</string>
+    <string name="ybyaf_checkout_text_field_last_name">Last name</string>
+    <string name="ybyaf_checkout_text_field_email">Email address</string>
+    <string name="ybyaf_button_confirm_order_label">Place reservation</string>
+    <string name="ybyaf_checkout_details_title">Collection details</string>
+    <string name="ybyaf_valid_email">Enter a valid email address</string>
+    <string name="ybyaf_reservation_note">Your equipment and software will be reserved and ready for collection for 24 hours after confirmation.</string>
+    <string name="ybyaf_checkout_dialog_title">Reservation confirmed</string>
+    <string name="ybyaf_checkout_success_message">Your order number has been created. Your items are reserved and will await collection for 24 hours.</string>
+    <string name="ybyaf_checkout_dialog_confirm">View orders</string>
     <string name="ybyaf_settings_screen_company_label">Company</string>
     <string name="ybyaf_settings_screen_version_label">Version</string>
     <string name="ybyaf_settings_screen_customer_support_label">Customer Support</string>
-    <string name="ybyaf_company_name">Company Name</string>
-    <string name="ybyaf_app_version">1.0.0</string>
-    <string name="ybyaf_customer_support_link">https://website.org/</string>
-
-    <!-- clear cart dialog -->
+    <string name="ybyaf_company_name">CAVIAR PHONE (UK AND NI) LIMITED</string>
+    <string name="ybyaf_app_version">1.0</string>
+    <string name="ybyaf_customer_support_link">https://caviarphone.surf</string>
+    <string name="ybyaf_about">About</string>
+    <string name="ybyaf_support">Support &amp; legal</string>
+    <string name="ybyaf_support_description">Visit the company website for customer support, product information and legal details.</string>
     <string name="ybyaf_clear_cart_dialog_title">Clear cart?</string>
-    <string name="ybyaf_clear_card_dialog_text">Are you sure you want to remove all items from your cart?</string>
-    <string name="ybyaf_button_confirm_clear_cart">Confirm</string>
+    <string name="ybyaf_clear_card_dialog_text">Remove every item from your cart?</string>
+    <string name="ybyaf_button_confirm_clear_cart">Clear cart</string>
     <string name="ybyaf_button_cancel_clear_cart">Cancel</string>
-
-    <!--[FIREBASE][notification_channel]-->
 </resources>

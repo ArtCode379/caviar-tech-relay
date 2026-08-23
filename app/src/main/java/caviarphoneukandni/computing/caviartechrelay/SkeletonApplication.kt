@@ -15,7 +15,7 @@ import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.GlobalContext.startKoin
 
-class YBYAFApplication : Application() {
+class SkeletonApplication : Application() {
     //[FIREBASE][appScope]
 
     override fun onCreate() {
@@ -25,7 +25,7 @@ class YBYAFApplication : Application() {
 
         startKoin {
             androidLogger()
-            androidContext(this@YBYAFApplication)
+            androidContext(this@SkeletonApplication)
             modules(appModules)
         }
 

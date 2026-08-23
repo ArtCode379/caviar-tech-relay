@@ -1,8 +1,13 @@
 package caviarphoneukandni.computing.caviartechrelay.ui.composable.screen.checkout
 
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.OutlinedTextFieldDefaults
@@ -14,6 +19,11 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusManager
 import androidx.compose.ui.platform.LocalFocusManager
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.unit.dp
+import caviarphoneukandni.computing.caviartechrelay.R
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import caviarphoneukandni.computing.caviartechrelay.ui.state.DataUiState
 import caviarphoneukandni.computing.caviartechrelay.ui.viewmodel.CheckoutViewModel
@@ -72,8 +82,58 @@ private fun CheckoutContent(
     onEmailChanged: (String) -> Unit,
     onPlaceOrderButtonClick: () -> Unit,
 ) {
-    Column(modifier = modifier) {
-
+    Column(modifier = modifier.padding(20.dp)) {
+        Text(
+            text = stringResource(R.string.ybyaf_checkout_details_title),
+            style = MaterialTheme.typography.titleLarge,
+        )
+        Spacer(Modifier.height(16.dp))
+        CheckoutTextField(
+            input = customerFirstName,
+            onInputChange = onFirstNameChanged,
+            labelText = stringResource(R.string.ybyaf_checkout_text_field_first_name),
+            modifier = Modifier.fillMaxWidth(),
+            keyboardOptions = KeyboardOptions(imeAction = ImeAction.Next),
+        )
+        Spacer(Modifier.height(12.dp))
+        CheckoutTextField(
+            input = customerLastName,
+            onInputChange = onLastNameChanged,
+            labelText = stringResource(R.string.ybyaf_checkout_text_field_last_name),
+            modifier = Modifier.fillMaxWidth(),
+            keyboardOptions = KeyboardOptions(imeAction = ImeAction.Next),
+        )
+        Spacer(Modifier.height(12.dp))
+        CheckoutTextField(
+            input = customerEmail,
+            onInputChange = onEmailChanged,
+            labelText = stringResource(R.string.ybyaf_checkout_text_field_email),
+            modifier = Modifier.fillMaxWidth(),
+            isError = isEmailInvalid,
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email, imeAction = ImeAction.Done),
+            keyboardActions = KeyboardActions(onDone = { focusManager.clearFocus() }),
+        )
+        if (isEmailInvalid) {
+            Text(
+                text = stringResource(R.string.ybyaf_valid_email),
+                color = MaterialTheme.colorScheme.error,
+                style = MaterialTheme.typography.labelSmall,
+            )
+        }
+        Spacer(Modifier.weight(1f))
+        Text(
+            text = stringResource(R.string.ybyaf_reservation_note),
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        Spacer(Modifier.height(16.dp))
+        Button(
+            onClick = onPlaceOrderButtonClick,
+            enabled = isButtonEnabled,
+            modifier = Modifier.fillMaxWidth().height(52.dp),
+        ) {
+            Text(stringResource(R.string.ybyaf_button_confirm_order_label))
+        }
     }
 }
 
